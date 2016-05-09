@@ -21,11 +21,6 @@
             <service android:enabled="true" android:name="com.magtek.mobile.android.mtlib.MTBTHService" />
             <service android:enabled="true" android:name="com.magtek.mobile.android.mtlib.MTUSBService" />
         </config-file>
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="com.egood.magtek-udynamo">
-                <param name="android-package" value="com.egood.cordova.plugins.magtekudynamo.MagTekUDynamoPlugin" />
-            </feature>
-        </config-file>
         <source-file src="src/android/com/egood/cordova/plugins/magtekudynamo/magtek-scra.jar" target-dir="libs" />
         <source-file src="src/android/com/egood/cordova/plugins/magtekudynamo/ksoap2-android-assembly-2.6.5-jar-with-dependencies.jar" target-dir="libs" />
         <source-file src="src/android/com/egood/cordova/plugins/magtekudynamo/MagTekUDynamoPlugin.java" target-dir="src/com/egood/cordova/plugins/magtekudynamo" />
