@@ -32,12 +32,6 @@
     </platform>
     
     <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="com.egood.magtek-udynamo">
-                <param name="ios-package" value="MagTekUDynamoPlugin" />
-            </feature>
-        </config-file>
-
         <header-file src="src/ios/MagTekUDynamoPlugin.h" />
         <source-file src="src/ios/MagTekUDynamoPlugin.m" />
 
