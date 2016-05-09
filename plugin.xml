@@ -32,8 +32,6 @@
 
         <header-file src="src/ios/MTSCRA.h" />
         <source-file src="src/ios/libMTSCRA.a" framework="true" />
-        
-        <preference name="deployment-target" value="7.0" />
 
         <framework src="libstdc++.dylib" />
         <framework src="avfoundation.framework" />
