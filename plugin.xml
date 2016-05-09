@@ -27,9 +27,6 @@
     </platform>
     
     <platform name="ios">
-        <header-file src="src/ios/MagTekUDynamoPlugin.h" />
-        <source-file src="src/ios/MagTekUDynamoPlugin.m" />
-
         <header-file src="src/ios/MTSCRA.h" />
         <source-file src="src/ios/libMTSCRA.a" framework="true" />
 
