@@ -6,7 +6,7 @@ Minimal working config.xml:
 
  ```
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="de.beon-support.emat" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<widget id=".." version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     ...
     <plugin name="cordova-plugin-media" spec="2.3.0" />
     <plugin spec="https://github.com/fsalomon/CardReaderPlugin.git" />
