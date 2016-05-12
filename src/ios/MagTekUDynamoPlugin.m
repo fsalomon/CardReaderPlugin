@@ -71,11 +71,11 @@
 	//Open MagTek device to start reading card data
 	if(self.mMagTek != nil) {
         if(![self mDeviceOpened]) {
-            [self.mMagTek setDeviceType:(MAGTEKIDYNAMO)];
-            [self.mMagTek setDeviceProtocolString:(@"com.magtek.idynamo")];
+            //[self.mMagTek setDeviceType:(MAGTEKIDYNAMO)];
+            //[self.mMagTek setDeviceProtocolString:(@"com.magtek.idynamo")];
 
-            self.mDeviceOpened = [self.mMagTek openDevice];
-            if([self.mMagTek isDeviceConnected]) {
+            //self.mDeviceOpened = [self.mMagTek openDevice];
+            if(false && [self.mMagTek isDeviceConnected]) {
                 self.mDeviceConnected = true;
 
                 if([self.mMagTek isDeviceOpened]) {
@@ -90,7 +90,7 @@
             else {
                 //Lets try an uDynamo Reader
                 [self.mMagTek setDeviceType:(MAGTEKAUDIOREADER)];
-                [self.mMagTek setDeviceProtocolString:(@"com.magtek.udynamo")];
+                //[self.mMagTek setDeviceProtocolString:(@"com.magtek.udynamo")];
 
                 self.mDeviceOpened = [self.mMagTek openDevice];
 
