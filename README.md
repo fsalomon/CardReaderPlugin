@@ -2,7 +2,7 @@
 
 Allow using the MagTek uDynamo Card Reader with https://build.phonegap.com
 
-Minimal working confix.xml:
+Minimal working config.xml:
 
  ```
 <?xml version='1.0' encoding='utf-8'?>
